@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+/**
+ * @author Brian Pérez Ramos
+ *
+ */
+
+html{
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+
+#infoRecogida{
+	max-height: 400px;
+	max-width: max-content;
+	padding: 1.5em;
+	margin: 0.5em;
+	border: 1px solid black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#msg{
+	margin: 0.5em;
+	display: block;
+}
+
+#divFactura ul{
+	margin-top: 0;
+}
+
+form *{
+	margin: 0.2em;
+}
+
+#container{
+	display: flex;
+	justify-content: space-around;
+}

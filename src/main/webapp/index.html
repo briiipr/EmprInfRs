@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Api Rest Empresas Informaticas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel=Stylesheet href="css/all.css" type="text/css">
+</head>
+<body>
+	<h1>Servicio Web REST con Java</h1>
+
+	<div id="container">
+		<form action="" id="formInsertar">
+			<h3>Insertar Factura</h3>
+			<label for="txtClienteFacturaInsertar">Nombre del cliente: </label> <input
+				type="text" id="txtClienteFacturaInsertar" name="cliente"><br />
+			<label for="selectTiendaFacturaInsertar">Escoja una tienda </label> <select
+				id="selectTiendaFacturaInsertar" name="tienda"></select><br />
+			<button id="btnFacturaInsertar">Insertar factura</button>
+		</form>
+		<br />
+		<div id="infoRecogida"></div>
+
+		<div id="infoFacturaConcreta">
+			<div>
+				<label for="txtBuscaFactura">Nº factura: </label> <input type="text"
+					id="txtBuscaFactura">
+				<button id="btnBuscaFactura">Buscar factura</button>
+				<br/><label id="msg"></label>
+			</div>
+			<div id="divFactura"></div>
+		</div>
+	</div>
+	<h5>En la consola del navegador puede obtener más información de los datos enviados y recibidos.</h5>
+	<script src="./js/axios.min.js"></script>
+	<script type="text/javascript" src="./js/all.js"></script>
+	<noscript>Debe activar JavaScript o utilizar un navegador que lo soporte, para poder disfrutar de esta página.</noscript>
+</body>
+</html>
